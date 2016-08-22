@@ -84,7 +84,7 @@ barchart(sort(table(mydata$combined_shot_type))
            
 ![loop](/Output-Images/6 barchart showing the number of shots of each shot type of kobe bryant.jpg)
   
-  #comparing the type of shots of kobe bryant during regular season and playoffs
+#comparing the type of shots of kobe bryant during regular season and playoffs
 
 comparision <- as.data.frame(xtabs(~ playoffs + combined_shot_type, mydata))
 comparision $combined_shot_type <- factor(comparision $combined_shot_type, levels(comparision $combined_shot_type)[c(1, 3, 6, 2, 5, 4)])
