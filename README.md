@@ -82,7 +82,7 @@ barchart(sort(table(mydata$combined_shot_type))
            panel.barchart(...)})
            
            
-  ![loop[(/Output-Images/6 barchart showing the number of shots of each shot type of kobe bryant.jpg)
+![loop](/Output-Images/6 barchart showing the number of shots of each shot type of kobe bryant.jpg)
   
   #comparing the type of shots of kobe bryant during regular season and playoffs
 
@@ -109,7 +109,8 @@ barchart(combined_shot_type ~ Freq | playoffs
              , pos = 4)
            panel.barchart(...)})
            
-  ![loop[(/Output-Images/7 comparing the type of shots of kobe bryant during regular season and playoffs.jpg)
+           
+![loop](/Output-Images/7 comparing the type of shots of kobe bryant during regular season and playoffs.jpg)
   
   # visualizing kobe bryant's hits vs misses data
 
@@ -124,7 +125,7 @@ hitvsmiss <- ggplot(data = mydata) +
 # hitvsmiss graph
 hitvsmiss
 
- ![loop[(/Output-Images/8 visualizing kobe bryant's hits vs misses data.jpg)
+![loop](/Output-Images/8 visualizing kobe bryant's hits vs misses data.jpg)
  
  #visualizing the plot that maps position by feature
 
@@ -141,6 +142,6 @@ shotplot <- function(feat) {
 #position by feature plot
 shotplot (combined_shot_type) 
 
-![loop[(/Output-Images/9 visualizing the plot that maps position by feature.jpg)
+![loop](/Output-Images/9 visualizing the plot that maps position by feature.jpg)
 
 
